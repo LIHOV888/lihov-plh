@@ -6,6 +6,7 @@ import { SiteProviders } from "@/components/providers/SiteProviders";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { OrganizationJsonLd } from "@/components/seo/OrganizationJsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </SiteProviders>
+        <Analytics />
       </body>
     </html>
   );

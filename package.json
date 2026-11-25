@@ -17,6 +17,7 @@
     "verify:all": "npm run typecheck && npm run lint && npm run test && npm run test:audit && npm run build"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "lucide-react": "^0.469.0",
     "next": "^15.1.7",
     "react": "^19.0.0",
